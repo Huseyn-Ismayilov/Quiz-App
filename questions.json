@@ -18,13 +18,13 @@
         "correct_answer": "Earth"
     },
     {
-        "question": "Which planet do you live ?",
+        "question": "What is 1 + 1",
         "answer_options": [
-            "Earth",
-            "Mars",
-            "Venus"
+            "2",
+            "1",
+            "999"
         ],
-        "correct_answer": "Earth"
+        "correct_answer": "2"
     },
     {
         "question": "Which planet do you live ?",
