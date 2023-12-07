@@ -7,13 +7,6 @@ const nextBtn = document.querySelector(".next_btn")
 
 // console.log(data[0].question);
 
-
-// data.forEach(function (element) {
-//     // console.log(element)
-//     // console.log(element.question)
-//     questionText.innerHTML = element.question
-// })
-
 function showQuestion(question) {
     questionElement.innerText = question.question
 
