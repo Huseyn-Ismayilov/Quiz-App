@@ -8,7 +8,7 @@ const nextBtn = document.querySelector(".next_btn")
 
 const currentQuestionIndex = 0
 
-function ceateQuestion() {
+function createQuestion() {
     let currentQuestionElement = data[currentQuestionIndex]
     let questionNo = currentQuestionIndex + 1
     questionText.innerHTML = `${questionNo} . ${currentQuestionElement.question}`
@@ -17,12 +17,12 @@ function ceateQuestion() {
     currentQuestionElement.answer_options.forEach(answer => {
         const answerButton = document.createElement('li')
         answerButton.classList.add("option")
-        answerButton.innerHTML = answer.text
+        answerButton.innerHTML = answer
         answerOptionList.appendChild(answerButton)
     })
-    // console.log(currentQuestionElement.answer_options)
+    console.log(currentQuestionElement.answer_options)
 }
-ceateQuestion()
+createQuestion()
 
 function selectQuestion() {
 
