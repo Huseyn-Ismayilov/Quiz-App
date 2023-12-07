@@ -17,7 +17,7 @@ const currentQuestionIndex = 0
 function currentQuestion() {
     let currentQuestionElement = data[currentQuestionIndex]
     let questionNo = currentQuestionIndex + 1
-    questionText.innerHTML = `${questionNo} + ${currentQuestionElement.question}`
+    questionText.innerHTML = `${questionNo} . ${currentQuestionElement.question}`
 
     // console.log(currentQuestionElement.answer_options);
 }
