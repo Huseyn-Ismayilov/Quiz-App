@@ -45,25 +45,12 @@ button {
 }
 
 .time {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 500;
+  color: rgba(68, 0, 181, 0.75);
 }
 .time span {
   font-size: 72px;
-}
-
-.nextBtn {
-  width: 100%;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 18px;
-  border-radius: 24px;
-  border: 1px solid rgba(0, 0, 0, 0.075);
-  background-color: rgba(0, 0, 0, 0.75);
-  color: white;
-}
-.nextBtn:hover {
-  background-color: rgb(0, 0, 0);
 }
 
 .question {
@@ -77,7 +64,7 @@ button {
   display: block;
   font-size: 18px;
   font-weight: 500;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   cursor: pointer;
@@ -87,4 +74,18 @@ button {
 }
 .answerOptions .option:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.nextBtn {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 18px;
+  border-radius: 16px;
+  border: unset;
+  background-color: rgba(68, 0, 181, 0.75);
+  color: white;
+}
+.nextBtn:hover {
+  background-color: rgba(68, 0, 181, 0.95);
 }/*# sourceMappingURL=app.css.map */

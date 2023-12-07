@@ -1,6 +1,6 @@
 [
     {
-        "question": "Which planet do you live?",
+        "question": "Which planet do you live in ?",
         "answer_options": [
             "Earth",
             "Mars",
@@ -15,7 +15,7 @@
             "Nile",
             "Venus"
         ],
-        "correct_answer": "Earth"
+        "correct_answer": "Nile"
     },
     {
         "question": "What is 1 + 1",
