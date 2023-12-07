@@ -7,17 +7,17 @@ const nextBtn = document.querySelector(".nextBtn")
 
 // console.log(data[0].question);
 
-const currentQuestionIndex = 0
+let currentIndex = 0
 
 function createQuestion() {
-    const currentQuestionElement = data[currentQuestionIndex]
-    const questionNo = currentQuestionIndex + 1
+    const currentQuestionElement = data[currentIndex]
+    const questionNo = currentIndex + 1
     questionText.innerHTML = `${questionNo}. ${currentQuestionElement.question}`
-    
+
 
     const time = document.createElement("div")
     time.classList.add("time")
-    time.innerHTML= `<span>${questionNo}</span>/${data.length}`
+    time.innerHTML = `<span>${questionNo}</span>/${data.length}`
     container.prepend(time)
 
     // console.log(currentQuestionElement.answer_options);
@@ -30,13 +30,17 @@ function createQuestion() {
         answerOptionList.appendChild(answerButton)
     })
     // console.log(currentQuestionElement.answer_options)
-
 }
+
 createQuestion()
 
 
 nextBtn.addEventListener("click", selectQuestion)
 
 function selectQuestion() {
-    currentQuestionIndex = currentQuestionIndex + 1
+
+    currentIndex++
+    if (currentIndex < data.length) {
+        createQuestion()
+    }
 }
