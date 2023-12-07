@@ -14,12 +14,19 @@ const nextBtn = document.querySelector(".next_btn")
 //     questionText.innerHTML = element.question
 // })
 
+function showQuestion(question) {
+    questionElement.innerText = question.question
 
+}
 
-function currentQuestion(data) {
-    // questionText.innerHTML = data.question
-    // console.log( questionText.innerHTML = data.question);
-    data.forEach()
+const currentQuestionIndex = 0
+
+function currentQuestion() {
+    let currentQuestionElement = data[currentQuestionIndex]
+    let questionNo = currentQuestionIndex + 1
+    questionText.innerHTML = `${questionNo} + ${currentQuestionElement.question}`
+
+    // console.log(currentQuestionElement.answer_options);
 }
 currentQuestion()
 
@@ -27,7 +34,3 @@ function selectQuestion() {
 
 }
 
-function showQuestion(question) {
-    questionElement.innerText = question.question
-  
-}
