@@ -1,0 +1,47 @@
+[
+    {
+        "question": "Which planet do you live?",
+        "answer_options": [
+            "Earth",
+            "Mars",
+            "Venus"
+        ],
+        "correct_answer": "Earth"
+    },
+    {
+        "question": "Which one is the world largest river?",
+        "answer_options": [
+            "Amazon",
+            "Nile",
+            "Venus"
+        ],
+        "correct_answer": "Earth"
+    },
+    {
+        "question": "Which planet do you live ?",
+        "answer_options": [
+            "Earth",
+            "Mars",
+            "Venus"
+        ],
+        "correct_answer": "Earth"
+    },
+    {
+        "question": "Which planet do you live ?",
+        "answer_options": [
+            "Earth",
+            "Mars",
+            "Venus"
+        ],
+        "correct_answer": "Earth"
+    },
+    {
+        "question": "Which planet do you live ?",
+        "answer_options": [
+            "Earth",
+            "Mars",
+            "Venus"
+        ],
+        "correct_answer": "Earth"
+    }
+]
