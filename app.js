@@ -14,7 +14,7 @@ function createQuestion() {
 
     let currentQuestionElement = data[currentIndex]
     let questionNo = currentIndex + 1
-    questionText.innerHTML = currentQuestionElement.question
+    questionText.innerHTML = `${questionNo}. ${currentQuestionElement.question}`
 
     time.innerHTML = `<span>${questionNo}</span>/${data.length}`
 
