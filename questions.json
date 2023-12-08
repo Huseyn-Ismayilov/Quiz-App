@@ -9,13 +9,23 @@
         "correct_answer": "Earth"
     },
     {
-        "question": "Which one is the world largest river?",
+        "question": "Which one is the world largest river ?",
         "answer_options": [
             "Amazon",
             "Nile",
             "Venus"
         ],
         "correct_answer": "Nile"
+    },
+    {
+        "question": "Whats is the best programming language in the universe ?",
+        "answer_options": [
+            "Javascript",
+            "Python",
+            "html??",
+            "css??"
+        ],
+        "correct_answer": "Javascript"
     },
     {
         "question": "What is 1 + 1",
@@ -25,15 +35,6 @@
             "999"
         ],
         "correct_answer": "2"
-    },
-    {
-        "question": "Which planet do you live ?",
-        "answer_options": [
-            "Earth",
-            "Mars",
-            "Venus"
-        ],
-        "correct_answer": "Earth"
     },
     {
         "question": "Which planet do you live ?",
